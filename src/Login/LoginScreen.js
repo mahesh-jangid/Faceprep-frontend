@@ -82,7 +82,7 @@ const LoginScreen = ({ location, history }) => {
                   type="text"
                   value={email}
                   className="inputa"
-                  placeholder="Email"
+                  placeholder="Email ex. foo@gmail.com"
                   onChange={(e) => setEmail(e.target.value)}
                 />
               </div>
@@ -96,7 +96,7 @@ const LoginScreen = ({ location, history }) => {
                   type="password"
                   value={password}
                   className="inputa"
-                  placeholder="Password"
+                  placeholder="Password ex. bar"
                   onChange={(e) => setPassword(e.target.value)}
                 />
               </div>
